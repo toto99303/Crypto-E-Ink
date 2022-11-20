@@ -22,6 +22,6 @@ GND -> GND
 
 The code would basically work with any tri-color SPI display with resolution 212x104 supported by the excellent GxEPD2 library:  
 https://github.com/ZinggJM/GxEPD2
-
-
+  
+Just select the proper display in "GxEPD2_display_selection_new_style.h" 
 
