@@ -484,8 +484,6 @@ void GetData() {
       JSONVar XCHkeys = XCHObject.keys();
       JSONVar BTCkeys = BTCObject.keys();
       JSONVar ETHkeys = ETHObject.keys();
-
-      JSONVar XCHvalue = XCHObject[XCHkeys[0]];
       
       for (int i = 0; i < BTCkeys.length(); i++) {
         JSONVar value = BTCObject[BTCkeys[i]];
