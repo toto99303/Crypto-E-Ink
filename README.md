@@ -7,7 +7,7 @@ I had to de-solder the STM32 chip from the e-ink board in order to use the nativ
 Otherwise it's useless...  
 Then just tap into the proper solder points and connect to the ESP dev board:  
 
-
+<img src="https://github.com/toto99303/Crypto-E-Ink/blob/main/Pictures/e-ink_pinout.png" width=60%>
 
 I used "Lolin new NodeMCU v3" and these pins:  
 
@@ -20,6 +20,8 @@ DIN -> D7
 GND -> GND  
 3.3V -> 3.3V  
 
+The code would basically work with any tri-color SPI display with resolution 212x104 supported by the excellent GxEPD2 library:  
+https://github.com/ZinggJM/GxEPD2
 
 
 
