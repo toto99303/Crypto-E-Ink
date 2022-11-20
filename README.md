@@ -15,10 +15,10 @@ BUSY -> D2
 RST -> D4  
 DC -> D3  
 CS -> D8  
-CLK -> D5  
-DIN -> D7  
+SCL -> D5  
+SPI-MOSI -> D7  
 GND -> GND  
-3.3V -> 3.3V  
+VCC -> 3.3V  
 
 The code would basically work with any tri-color SPI display with resolution 212x104 supported by the excellent GxEPD2 library:  
 https://github.com/ZinggJM/GxEPD2
